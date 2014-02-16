@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="edit_container_base_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/edit_container_height</item>
+    </style>
+    <style name="edit_container_top_round" parent="@style/edit_container_base_style">
+        <item name="android:background">@vivo:drawable/bbk_edit_top_round</item>
+    </style>
+    <style name="edit_container_no_round" parent="@style/edit_container_base_style">
+        <item name="android:background">@vivo:drawable/bbk_edit_square_all</item>
+    </style>
+    <style name="edit_container_all_round" parent="@style/edit_container_base_style">
+        <item name="android:background">@vivo:drawable/bbk_edit_all_round</item>
+    </style>
+    <style name="edit_container_bottom_round" parent="@style/edit_container_base_style">
+        <item name="android:background">@vivo:drawable/bbk_edit_bottom_round</item>
+    </style>
+    <style name="edit_label_style">
+        <item name="android:textAppearance">?android:textAppearanceMediumInverse</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="edit_input_style">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/text_color_small</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/edit_input_height</item>
+        <item name="android:singleLine">@bool/edit_singleline</item>
+    </style>
+</resources>
